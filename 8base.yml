@@ -1,0 +1,6 @@
+functions:
+  getTasks:
+    type: webhook
+    handler:
+      code: src/webhooks/getTasks/handler.js
+    method: POST
